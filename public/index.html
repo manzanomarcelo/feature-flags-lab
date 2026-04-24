@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feature Flags Lab</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 id="app-title">Feature Flags Learning Lab</h1>
+      <p id="app-description">
+        A simple training dashboard to practice trunk-based development and
+        feature-flag rollouts.
+      </p>
+    </header>
+
+    <main class="layout" aria-labelledby="app-title">
+      <section id="stable-area" class="panel panel-stable" aria-labelledby="stable-heading">
+        <h2 id="stable-heading">Stable area</h2>
+        <p>
+          This section represents the reliable experience that is always shown
+          to all users.
+        </p>
+      </section>
+
+      <section id="beta-area" class="panel panel-beta" aria-labelledby="beta-heading">
+        <h2 id="beta-heading">Future beta area</h2>
+        <div class="beta-placeholder" role="status" aria-live="polite">
+          Reserved for a future feature behind a flag.
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
