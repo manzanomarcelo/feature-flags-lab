@@ -1,0 +1,76 @@
+:root {
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --text: #1f2937;
+  --muted: #4b5563;
+  --border: #d1d5db;
+  --stable-accent: #2563eb;
+  --beta-accent: #7c3aed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.page-header,
+.layout {
+  width: min(900px, 92%);
+  margin: 0 auto;
+}
+
+.page-header {
+  padding: 2rem 0 1rem;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+#app-description {
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+}
+
+.layout {
+  display: grid;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+.panel-stable {
+  border-left: 6px solid var(--stable-accent);
+}
+
+.panel-beta {
+  border-left: 6px solid var(--beta-accent);
+}
+
+.beta-placeholder {
+  margin-top: 0.75rem;
+  min-height: 120px;
+  border: 2px dashed var(--beta-accent);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--muted);
+  background: #faf7ff;
+  padding: 1rem;
+}

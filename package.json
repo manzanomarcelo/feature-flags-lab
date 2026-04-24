@@ -1,0 +1,25 @@
+{
+  "name": "feature-flags-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+   
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzanomarcelo/feature-flags-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/manzanomarcelo/feature-flags-lab/issues"
+  },
+  "homepage": "https://github.com/manzanomarcelo/feature-flags-lab#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
