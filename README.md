@@ -37,6 +37,7 @@ Devuelve JSON
   ↓
 Frontend decide mostrar u ocultar la sección beta
 
+```
 ## Qué aprendí con este LAB
 
 - Cuando usás TBD branching la idea principal es hacer cambios pequeños, mergear rápido y eliminar la rama usada para realizar los cambios. Las ramas tienen una corta vida en este tipo de branching. 
