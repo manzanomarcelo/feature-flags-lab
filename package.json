@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test": "jest",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,10 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.59.1"
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.59.1",
+    "eslint": "^10.6.0",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
   }
 }
